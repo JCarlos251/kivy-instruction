@@ -1,91 +1,42 @@
-# Protótipo Kivy
-Descrição do processo de criação de um aplicativo utilizando a biblioteca python kivy.
+# Protótipo - Kivy
 
----
+Protótipo de aplicativo feito em Kivy, resultado do instruction sobre desenvolvimento mobile.
+Grupo: Auxílio na tomada de decisão no processo de compra de frutas e vegetais.
 
-## Instalação e configuração do Kivy
+## Introdução
 
-```
-Obs.:
-- Caso ao executar algum comando seja necessário uma confirmação, sempre digite "y" para confirmar
-- Não é necessário usar os mesmos nomes de pastas que esse tutorial, só tenha certeza de que estamos falando dos mesmos endereços
-- Sempre que um comando tiver uma versão, procure na documentação oficial quais as últimas lançadas
-- Evite instalar programas que estão em beta ou que foram recém-lançados, visto que as demais ferramentas podem ainda não ter compatibilidade
-- Esse tutorial é para o Windows, mas para outros sistemas operacionais não deve distanciar muito. Verifique, entretanto, as documentações oficiais para ter certeza
-```
+Para alcançar o nosso objetivo, precisamos obter o conhecimento necessário para o desenvolvimento de um aplicativo mobile. Como primeiro passo na nossa jornada, decidimos criar um app simples que acesse a câmera e a galeria de um celular. Com isso em mente, escolhemos dois frameworks para o nosso estudo sobre desenvolvimento mobile:
++ Flutter (Dart)
++ Kivy (Python)
 
-1. Instalar a IDE PyCharm, ou alguma outra IDE de sua preferência, como: VSCode, Anaconda.
-	<ul type="">
-		<li>
-			Acesse o link do<a href="https://www.jetbrains.com/pt-br/pycharm/" target="_blank"> JetBrains</a> e baixe a versão correspondente ao seu sistema operacional da IDE PyCharm. Existe a versão paga, mas recomendamos a versão gratuita com base em opensource.
-		</li>
-	</ul>
+Este repositório contém o código do protótipo do nosso aplicativo feito em Kivy, assim como um guia para auxiliar aqueles que estão dando os seus primeiros passos com o framework.
 
-2. Instalar o Kivy e bibliotecas auxiliares
-	<ul type="a">
-		<li>
-			No menu principal do PyCharm, clique em: File -> New project. Escolha o nome e onde será salvo o seu projeto.
-			<img src="./images/2a.png">
-		</li>
-		<li>
-			Após o projeto ser criado e seu ambiente virtual ter sido configurado automaticamente, é necessário instalar as bibliotecas para o kivy funcionar. Para isso, para abrir as configurações, utilize o atalho : Crtl + Alt + s, em seguida, no menu a esquerda localize a aba 'Project: nome_do_seu_projeto. Por fim, clique na opção 'Python Interpreter'
-			<img src="./images/2b.png">
-		</li>
-		<li>
-			Dessa forma você conseguirá visualizar todas as bibliotecas instaladas no seu app. Clique no botão <b>'+'</b> para adicionar novas.
-			<img src="./images/2c.png">
-		</li>
-		<li>
-			Após isso, procure na barra de pesquisa e instale as seguintes bibliotecas que serão importantes para o aplicativo:
-      <img src="./images/2d.png">
-      <ul>
-          <li>docutils</li>
-          <li>pygments</li>
-          <li>pypiwin32</li>
-          <li>kivy-deps.angle</li>
-          <li>kivy-deps.glew</li>
-          <li>kivy-deps.gstreamer</li>
-          <li>kivy-deps.sdl2</li>
-          <li>opencv-python</li>
-      </ul>
-			Você pode tentar instalar o pacote Kivy pelo mesmo método, mas se der erro, faço o passo seguinte. 
-		</li>
-		<li>
-			Instalando através do pip no cmd. Primeiramente, é necessário entrar no ambiente virtual (venv) do projeto. Para isso, abra o prompt de comando e localize o projeto.
-			<img src="./images/2e.png">
-		</li>
-    
-    <li>
-			Em seguida, acesse a pasta venv -> Scripts; então, execute o arquivo activate.bat para acessar o venv. Irá aparecer (venv) no começo da próxima linha, como mostrado a seguir.
-			<img src="./images/2f.png">
-		</li>
-    <li>
-			Finalmente, rode o comando e a biblioteca kivy será instalada.
-    </li>
-      
-      <!--pip install kivy[base] kivy_examples --pre --extra-index-url https://kivy.org/downloads/simple-->
-    <li>
-			<img src="./images/2g.png">
-		</li>
+### O que é Kivy?
 
-	</ul>
+Como é dito na [página inicial](https://kivy.org/) da ferramenta que dá acesso à documentação:
+>O kivy é um framework de código aberto baseado na linguagem python, que é uma das principais linguagens para desenvolvimento de softwares envolvendo machine learning e ciência de dados. Um dos seus principais atrativos do framework é que, supostamente, ele é multiplataforma, ou seja, uma única aplicação é necessária para rodas em diversos sistemas operacionais, como: Android, iOS, desktop, entre outros; além de ser bem flexível e simples no desenvolvimento das aplicações.
 
-3. Testando aplicativo "Hello, world"
-  <ul>
-  <li>
-			Pronto, bibliotecas instaladas. Para testar, crie um arquivo main.py no seu projeto e rode o seguinte código:
-      
-      from kivy.app import App
-from kivy.uix.label import Label
+## Como instalar o Kivy e rodar seu primeiro projeto.
 
-class Main(App):
-    def build(self):
-        return Label(text="Hello world")
-    </li>
-    <li>
-    O resultado deve ser semelhante ao seguinte:
-    <img src="./images/2h.png">
-    </li>
-  </ul>
-  
-	
+A instalação do Kivy é simples, pois trata-se de uma biblioteca python que pode ser instalada através do pip. Ademais, para funcionar corretamente, é necessário a instalação de algumas bibliotecas suplementares.
+
+
+Para isso, criamos o tutorial no link a seguir para a instalação e criação de um aplicativo simples utilizando o PyCharm. [Tutorial Kivy](tutorial-kivy.md)
+
+
+## Entendendo conceitos fundamentais do Kivy:
+
+Em um aplicativo utilizando o Kivy, no geral toda a lógica e a parte da programação em si fica em arquivos .py, enquanto os layouts e os widgets ficam em arquivos .kv, embora possa haver intercâmbios entre eles para necessidades específicas. Somado a isso, praticamente todos os elementos que dizem respeito ao kivy são *widgets*, então a manipulação desses é fundamental para a construção dos aplicativos. Existe uma quantidade muito grande de widgets, onde alguns dos principais são: Button, Label, Text Input, Check box, Image. Para acesso a todos: [widgets - Kivy](https://kivy.org/doc/stable/api-kivy.uix.html)
+
+
+### Outros links úteis:
++ [Página inicial](https://kivy.org/) - 
+
+
+## Nosso Aplicativo
+
+Como dito anteriormente, nosso objetivo era criar um protótipo de um app simples para Android que consiga acessar a câmera ou a galeria de um dispositivo e selecionar uma imagem que será exibida na tela. O código fonte deste protótipo pode ser encontrado neste repositório, com comentários que facilitam o seu entendimento.
+
+### Preview
+
+<img src="" width="216" height="384">  <img src="" width="216" height="384">
