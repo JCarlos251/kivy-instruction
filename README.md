@@ -38,7 +38,7 @@ Como dito anteriormente, nosso objetivo era criar um protótipo de um app simple
 
 ### Preview no desktop
 
-<img src="" width="216" height="384">  <img src="" width="216" height="384">
+<img src="images/preview1.png" width="300">         <img src="images/preview2.png" width="300">
 
 ### Outros links úteis:
 + [Kivy](https://kivy.org/doc/stable/) - Um dos links principais é a documentação oficial do próprio kivy, onde há informações diversas sobre instalação, componentes e também aplicativos de exemplo muito úteis para consulta.
