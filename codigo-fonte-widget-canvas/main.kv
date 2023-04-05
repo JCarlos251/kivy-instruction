@@ -1,0 +1,39 @@
+<Manager>:
+    MainScreen:
+        id: main
+        name: 'main'
+
+    ScreenAfterButton:
+
+<MainScreen>:
+
+    canvas:
+        Color:
+            rgba: (255/255, 255/255, 255/255, 255/255)
+        Rectangle:
+            size: self.size
+            pos: self.pos
+            texture: app.texture
+
+    ImageButton:
+        source: "camera-icon-21.png"
+        pos_hint: {"center_x": .5, "center_y": .1}
+        size_hint: 0.1, 0.1
+        on_press: app.take_picture()
+        on_release:
+            app.root.current="after"
+            root.manager.transition.direction="right"
+
+
+<ScreenAfterButton>:
+
+    Image:
+        id: image_after
+
+    Button:
+        text: 'Back'
+        pos_hint: {"center_x": .5, "center_y": .1}
+        size_hint: 0.1, 0.1
+        on_release:
+            app.root.current="main"
+            root.manager.transition.direction="left"
