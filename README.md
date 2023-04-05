@@ -21,22 +21,24 @@ Como é dito na [página inicial](https://kivy.org/) da ferramenta que dá acess
 A instalação do Kivy é simples, pois trata-se de uma biblioteca python que pode ser instalada através do pip. Ademais, para funcionar corretamente, é necessário a instalação de algumas bibliotecas suplementares.
 
 
-Para isso, criamos o tutorial no link a seguir para a instalação e criação de um aplicativo simples utilizando o PyCharm. [Tutorial Kivy](tutorial-kivy.md)
+Para isso, criamos o tutorial no link a seguir para a instalação e criação de um aplicativo simples utilizando o PyCharm. [Tutorial Kivy](tutorial-kivy.md).
 
 
 ## Entendendo conceitos fundamentais do Kivy:
 
-Em um aplicativo utilizando o Kivy, no geral toda a lógica e a parte da programação em si fica em arquivos .py, enquanto os layouts e os widgets ficam em arquivos .kv, embora possa haver intercâmbios entre eles para necessidades específicas. Somado a isso, praticamente todos os elementos que dizem respeito ao kivy são *widgets*, então a manipulação desses é fundamental para a construção dos aplicativos. Existe uma quantidade muito grande de widgets, onde alguns dos principais são: Button, Label, Text Input, Check box, Image. Para acesso a todos: [widgets - Kivy](https://kivy.org/doc/stable/api-kivy.uix.html)
-
-
-### Outros links úteis:
-+ [Página inicial](https://kivy.org/) - 
-
+Em um aplicativo utilizando o Kivy, no geral toda a lógica e a parte da programação em si fica em arquivos .py, enquanto os layouts e os widgets ficam em arquivos .kv, embora possa haver intercâmbios entre eles para necessidades específicas. Somado a isso, praticamente todos os elementos que dizem respeito ao kivy são *widgets*, então a manipulação desses é fundamental para a construção dos aplicativos. Existe uma quantidade muito grande de widgets, onde alguns dos principais são: Button, Label, Text Input, Check box, Image. Para acesso a todos: [widgets - Kivy](https://kivy.org/doc/stable/api-kivy.uix.html).
 
 ## Nosso Aplicativo
 
-Como dito anteriormente, nosso objetivo era criar um protótipo de um app simples para Android que consiga acessar a câmera ou a galeria de um dispositivo e selecionar uma imagem que será exibida na tela. O código fonte deste protótipo pode ser encontrado neste repositório, com comentários que facilitam o seu entendimento.
+Como dito anteriormente, nosso objetivo era criar um protótipo de um app simples acessar a câmera registrar uma imagem que será exibida na tela. O código fonte deste protótipo pode ser encontrado neste repositório, com comentários que facilitam o seu entendimento.
 
 ### Preview
 
 <img src="" width="216" height="384">  <img src="" width="216" height="384">
+
+### Outros links úteis:
++ [Kivy](https://kivy.org/doc/stable/) - Um dos links principais é a documentação oficial do próprio kivy, onde há informações diversas sobre instalação, componentes e também aplicativos de exemplo muito úteis para consulta.
++ [Conceitos básicos do kivy](https://www.youtube.com/watch?v=9JH8r8mz0g4&ab_channel=Zenva) - Um vídeo tutorial do canal no youtube Zenva que apresenta os conceitos básicos e aplicativos simples com o kivy utilizando seus principais dois tipos de layout: FloatLayout e GridLayout.
+
+
+
