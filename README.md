@@ -32,7 +32,9 @@ Em um aplicativo utilizando o Kivy, no geral toda a lógica e a parte da program
 
 ## Nosso Aplicativo
 
-Como dito anteriormente, nosso objetivo era criar um protótipo de um app simples acessar a câmera e registrar uma imagem que será exibida na tela. O código fonte deste protótipo pode ser encontrado neste repositório, com comentários que facilitam o seu entendimento no [link](processo_explicativo.ipynb).
+[Tutorial explicativo](processo_explicativo.ipynb)
+
+Como dito anteriormente, nosso objetivo era criar um protótipo de um app simples acessar a câmera e registrar uma imagem que será exibida na tela. O código fonte deste protótipo pode ser encontrado neste repositório, com comentários que facilitam o seu entendimento.
 
 ### Preview no desktop
 
