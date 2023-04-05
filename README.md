@@ -26,7 +26,9 @@ Para isso, criamos o tutorial no link a seguir para a instalação e criação d
 
 ## Entendendo conceitos fundamentais do Kivy:
 
+<p align="justify">
 Em um aplicativo utilizando o Kivy, no geral toda a lógica e a parte da programação em si fica em arquivos .py, enquanto os layouts e os widgets ficam em arquivos .kv, embora possa haver intercâmbios entre eles para necessidades específicas. Somado a isso, praticamente todos os elementos que dizem respeito ao kivy são *widgets*, então a manipulação desses é fundamental para a construção dos aplicativos. Existe uma quantidade muito grande de widgets, onde alguns dos principais são: Button, Label, Text Input, Check box, Image. Para acesso a todos: [widgets - Kivy](https://kivy.org/doc/stable/api-kivy.uix.html).
+</p>
 
 ## Nosso Aplicativo
 
