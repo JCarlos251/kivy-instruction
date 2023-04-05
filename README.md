@@ -14,8 +14,11 @@ Este repositório contém o código do protótipo do nosso aplicativo feito em K
 ### O que é Kivy?
 
 Como é dito na [página inicial](https://kivy.org/) da ferramenta que dá acesso à documentação:
->O kivy é um framework de código aberto baseado na linguagem python, que é uma das principais linguagens para desenvolvimento de softwares envolvendo machine learning e ciência de dados. Um dos seus principais atrativos do framework é que, supostamente, ele é multiplataforma, ou seja, uma única aplicação é necessária para rodas em diversos sistemas operacionais, como: Android, iOS, desktop, entre outros; além de ser bem flexível e simples no desenvolvimento das aplicações.
 
+<p align="justify">
+O kivy é um framework de código aberto baseado na linguagem python, que é uma das principais linguagens para desenvolvimento de softwares envolvendo machine learning e ciência de dados. Um dos seus principais atrativos do framework é que, supostamente, ele é multiplataforma, ou seja, uma única aplicação é necessária para rodas em diversos sistemas operacionais, como: Android, iOS, desktop, entre outros; além de ser bem flexível e simples no desenvolvimento das aplicações.
+<p>
+  
 ## Como instalar o Kivy e rodar seu primeiro projeto.
 
 A instalação do Kivy é simples, pois trata-se de uma biblioteca python que pode ser instalada através do pip. Ademais, para funcionar corretamente, é necessário a instalação de algumas bibliotecas suplementares.
@@ -37,6 +40,8 @@ Em um aplicativo utilizando o Kivy, no geral toda a lógica e a parte da program
 Como dito anteriormente, nosso objetivo era criar um protótipo de um app simples acessar a câmera e registrar uma imagem que será exibida na tela. O código fonte deste protótipo pode ser encontrado neste repositório, com comentários que facilitam o seu entendimento.
 
 ### Preview no desktop
+
+Prints da tela do computador onde foi usada uma webcam para capturá-las.
 
 <img src="images/preview1.png" width="300">         <img src="images/preview2.png" width="300">
 
