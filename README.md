@@ -16,7 +16,7 @@ Este repositório contém o código do protótipo do nosso aplicativo feito em K
 Como é dito na [página inicial](https://kivy.org/) da ferramenta que dá acesso à documentação:
 
 <p align="justify">
-O kivy é um framework de código aberto baseado na linguagem python, que é uma das principais linguagens para desenvolvimento de softwares envolvendo machine learning e ciência de dados. Um dos seus principais atrativos do framework é que, supostamente, ele é multiplataforma, ou seja, uma única aplicação é necessária para rodas em diversos sistemas operacionais, como: Android, iOS, desktop, entre outros; além de ser bem flexível e simples no desenvolvimento das aplicações.
+O kivy é um framework de código aberto baseado na linguagem python, que é uma das principais linguagens para desenvolvimento de softwares envolvendo machine learning e ciência de dados. Um dos principais atrativos do framework é que ele é multiplataforma, ou seja, uma única aplicação é necessária para rodas em diversos sistemas operacionais, como: Android, iOS, desktop, entre outros; além de ser bem flexível e simples no desenvolvimento das aplicações.
 <p>
   
 ## Como instalar o Kivy e rodar seu primeiro projeto.
